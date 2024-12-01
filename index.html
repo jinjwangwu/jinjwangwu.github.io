@@ -3,11 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to JJWUVT</title>
+    <title>My Article on jjwuvt.com</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first static website hosted on GitHub Pages.</p>
-    <p>I am wondering how fast the website will respond after I make some changes here.</p>
+    <header>
+        <h1>Welcome to My Article</h1>
+    </header>
+
+    <main>
+        <section id="article">
+            <h2>Introduction</h2>
+            <p>Welcome to my article. This is where I'll practice writing paragraphs, headers, and more!</p>
+
+            <h2>Images</h2>
+            <!-- Reference the image located in the "images" folder -->
+            <img src="images/my_backyard.jpg" alt="My Backyard" width="300">
+
+            <h2>Audio File</h2>
+            <!-- Reference the audio file located in the "audio" folder -->
+            <audio controls>
+                <source src="audio/Yang Shen E.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Video File</h2>
+            <!-- Reference the video file located in the "videos" folder -->
+            <!-- Run VLC media player: Media -> Convert/Save to convert to mp4 -->
+            <video width="320" height="240" controls>
+                <source src="videos/Youve_Got_Mail_part_1_of_3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h2>Download the Article</h2>
+            <!-- Reference the PDF and Word files located in the "downloads" folder -->
+            <p><a href="downloads/myarticle.pdf" download>Download this article as a PDF</a></p>
+            <p><a href="downloads/myarticle.docx" download>Download this article as a Word document</a></p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 by jjwuvt.com. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
